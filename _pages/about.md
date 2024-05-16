@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-# About Me
+## About Me
 
 I am a first year master student in [Department of Electrical and Systems Engineering](https://www.ese.upenn.edu) at the [University of Pennsylvania](https://www.upenn.edu) with a concentration on Machine Learning and Data Science. I received my dual B.Sc. in Data Science from [Duke Kunshan University](https://www.dukekunshan.edu.cn) and [Duke University](https://www.duke.edu), where I worked closely with [Peng Sun](https://scholars.duke.edu/person/Peng.Sun1) and [Enmao Diao](https://diaoenmao.com/). 
 
@@ -39,12 +39,12 @@ My research interest primarily revolves around enhancing **efficiency** and prom
 </table>
 
 
-# Selected Publications 
+## Selected Publications 
 
 <table>
   <tr>
     <td>
-      <img src="path/to/your/image.png" alt="Image description" width="300">
+      <img src="../assets/img/publication_preview/esc.png" alt="Image description" width="300">
     </td>
     <td>
       <strong>ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
@@ -53,21 +53,6 @@ My research interest primarily revolves around enhancing **efficiency** and prom
       <a href="https://arxiv.org/abs/2404.19441">paper</a> / <a href="https://github.com/yzGuu830/efficient-speech-codec">code</a> 
       <br><br>
       We propose Efficient Speech Codec (ESC), a lightweight parameter-efficient codec laid on cross-scale residual vector quantization and transformers. Our model leverages mirrored hierarchical window-attention transformer blocks and performs step-wise decoding from coarse-to-fine feature representations. 
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <img src="../assets/img/publication_preview/esc.png" alt="Image description" width="300">
-    </td>
-    <td>
-      <strong><a href="link_to_your_paper" style="color: blue;">ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</a></strong><br>
-      Yilun Hua, Nicholas Chernogor, <strong>Yuzhe Gu</strong>, Seoyeon Julie Jeong, Miranda Luo, Cristian Danescu-Niculescu-Mizil<br>
-      <em>arXiv, 2024</em><br>
-      <a href="https://arxiv.org/abs/2404.19441">paper</a> / <a href="https://github.com/yzGuu830/efficient-speech-codec">code</a> <br><br>
-      We propose a network encoder that converts motion sequences into periodic signals and a conditional diffusion model for predicting periodic motion parameters based on text descriptions and the starting pose, enabling the generation of a broader variety of high-quality longer motion sequences.
     </td>
   </tr>
 </table>
