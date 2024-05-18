@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Graduate Student interested in Machine Learning and Natural Language Processing
 
