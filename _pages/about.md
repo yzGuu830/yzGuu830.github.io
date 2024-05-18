@@ -33,57 +33,61 @@ My research interest primarily revolves around enhancing **efficiency** and prom
   <tr>
     <td>
       <strong>Github</strong>: <a href="https://github.com/yzGuu830">@github/yzGuu830</a> <br>
-      <strong>Linkedin</strong>: <a href="https://www.linkedin.com/in/yuzheguu">@in/yuzheguu</a> <br>
+      <strong>Linkedin</strong>: <a href="https://www.linkedin.com/in/yuzheguu">@in/yuzheguu</a><br>
     </td>
   </tr>
 </table>
-
+<br><br>
 
 ## Selected Publications 
 
 <table>
   <tr>
     <td>
-      <img src="../assets/img/publication_preview/esc.png" alt="Image description" width="300">
+      <img src="../assets/img/publication_preview/esc.png" alt="Image description" width="250">
     </td>
-    <td>
+    <td style="font-size: 10px;">
       <strong>ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
       <strong>Yuzhe Gu</strong>, Enmao Diao<br>
       <em>arXiv, 2024</em><br>
       <a href="https://arxiv.org/abs/2404.19441">paper</a> / <a href="https://github.com/yzGuu830/efficient-speech-codec">code</a> 
-      <br><br>
+      <br>
       We propose Efficient Speech Codec (ESC), a lightweight parameter-efficient codec laid on cross-scale residual vector quantization and transformers. Our model leverages mirrored hierarchical window-attention transformer blocks and performs step-wise decoding from coarse-to-fine feature representations. 
     </td>
   </tr>
 </table>
 
+<br><br>
+
 <table>
   <tr>
     <td>
-      <img src="../assets/img/publication_preview/scd.png" alt="Image description" width="300">
+      <img src="../assets/img/publication_preview/scd.png" alt="Image description" width="250">
     </td>
-    <td>
+    <td style="font-size: 10px;">
       <strong>How Did We Get Here? Summarizing Conversation Dynamics</strong><br>
       Yilun Hua, Nicholas Chernogor, <strong>Yuzhe Gu</strong>, Seoyeon Julie Jeong, Miranda Luo, Cristian Danescu-Niculescu-Mizil<br>
       <em>Proceedings of NAACL, 2024</em><br>
       <a href="https://arxiv.org/abs/2404.19007">paper</a> / <a href="https://github.com/CornellNLP/scd?tab=readme-ov-file">code</a> 
-      <br><br>
+      <br>
       We introduce the task of summarizing the dynamics of conversations, by constructing a dataset of human-written summaries, and exploring several automated baselines. We evaluate whether such summaries can capture the trajectory of conversations via an established downstream task: forecasting whether an ongoing conversation will eventually derail into toxic behavior. We show that they help both humans and automated systems with this forecasting task.
     </td>
   </tr>
 </table>
 
+<br><br>
+
 <table>
   <tr>
     <td>
-      <img src="../assets/img/publication_preview/policy.png" alt="Image description" width="300">
+      <img src="../assets/img/publication_preview/policy.png" alt="Image description" width="250">
     </td>
-    <td>
+    <td style="font-size: 10px;">
       <strong>Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches</strong><br>
       <strong>Yuzhe Gu</strong>, Peng Sun, Azzedine Boukerche<br>
       <em>Proceedings of IEEE International Conference on Communications (ICC), 2024</em><br>
       <a href="https://drive.google.com/file/d/1rFzjVxc8J8d316yVMEADwHNk9CAvbI0U/view">paper</a> / <a href="https://github.com/yzGuu830/epic-quant">code</a> 
-      <br><br>
+      <br>
       We design a policy-aware time series forecasting model to estimate COVID-19 trends by incorporating temporal information from 16 policy indicators. Through counterfactual analysis, we quantify the causal effect of indicators and propose two static metrics <em>lag period</em> and <em>average effect</em>. Our model verifies the effectiveness of all 16 policy indicators in controlling virus transmission in the US.
     </td>
   </tr>
