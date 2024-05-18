@@ -37,16 +37,16 @@ My research interest primarily revolves around enhancing **efficiency** and prom
     </td>
   </tr>
 </table>
-<br><br>
+<br><br><br>
 
 ## Selected Publications 
 
 <table>
   <tr>
     <td>
-      <img src="../assets/img/publication_preview/esc.png" alt="Image description" width="250">
+      <img src="../assets/img/publication_preview/esc.png" alt="Image description" width="200">
     </td>
-    <td style="font-size: 10px;">
+    <td style="font-size: 12px;">
       <strong>ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
       <strong>Yuzhe Gu</strong>, Enmao Diao<br>
       <em>arXiv, 2024</em><br>
@@ -62,9 +62,9 @@ My research interest primarily revolves around enhancing **efficiency** and prom
 <table>
   <tr>
     <td>
-      <img src="../assets/img/publication_preview/scd.png" alt="Image description" width="250">
+      <img src="../assets/img/publication_preview/scd.png" alt="Image description" width="200">
     </td>
-    <td style="font-size: 10px;">
+    <td style="font-size: 12px;">
       <strong>How Did We Get Here? Summarizing Conversation Dynamics</strong><br>
       Yilun Hua, Nicholas Chernogor, <strong>Yuzhe Gu</strong>, Seoyeon Julie Jeong, Miranda Luo, Cristian Danescu-Niculescu-Mizil<br>
       <em>Proceedings of NAACL, 2024</em><br>
@@ -80,9 +80,9 @@ My research interest primarily revolves around enhancing **efficiency** and prom
 <table>
   <tr>
     <td>
-      <img src="../assets/img/publication_preview/policy.png" alt="Image description" width="250">
+      <img src="../assets/img/publication_preview/policy.png" alt="Image description" width="200">
     </td>
-    <td style="font-size: 10px;">
+    <td style="font-size: 12px;">
       <strong>Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches</strong><br>
       <strong>Yuzhe Gu</strong>, Peng Sun, Azzedine Boukerche<br>
       <em>Proceedings of IEEE International Conference on Communications (ICC), 2024</em><br>
