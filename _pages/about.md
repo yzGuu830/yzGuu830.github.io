@@ -19,7 +19,13 @@ social: false # includes social icons at the bottom of the page
 
 I am a first year master student in [Department of Electrical and Systems Engineering](https://www.ese.upenn.edu) at the [University of Pennsylvania](https://www.upenn.edu) with a concentration on Machine Learning and Data Science. I received my dual B.Sc. in Data Science from [Duke Kunshan University](https://www.dukekunshan.edu.cn) and [Duke University](https://www.duke.edu), where I worked closely with [Peng Sun](https://scholars.duke.edu/person/Peng.Sun1) and [Enmao Diao](https://diaoenmao.com/). 
 
-My research interest primarily revolves around enhancing **efficiency** and promoting **trustworthiness** in existing generative models. I am also interested in exploring the theory and application of learning quantized representations. My long-term objective is to develop intelligent systems that are both effective and reliable. 
+<!-- My research interest primarily revolves around enhancing **efficiency** and promoting **trustworthiness** in existing generative models. I am also interested in exploring the theory and application of learning quantized representations. My long-term objective is to develop intelligent systems that are both effective and reliable.  -->
+
+My current research interest covers a wide range of topics related to deep generative models: 
+- **Quantized Representation Learning**: quantized variational autoencoders, neural data compression
+- **Efficient LLMs**: quantization techniques for LLM speed up inference
+- **Trustworthy LLMs**: bias, fairness, robustness
+My overall objective is to develop intelligent systems that are both efficient and reliable.
 
 <span style="color: blue;">I am currently seeking for a CS/ECE Ph.D. position related to Machine Learning and Natural Language Processing starting 2025 Fall. </span>
 
