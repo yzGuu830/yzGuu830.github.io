@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Graduate Student interested in Machine Learning and Natural Language Processing
+subtitle: A Graduate Student interested in Machine Learning and Natural Language Processing
 
 profile:
   align: right
@@ -23,7 +23,7 @@ I am a first year master student in [Department of Electrical and Systems Engine
 
 My current research interest covers a wide range of topics related to deep generative models: 
 - **Quantized Representation Learning**: quantized variational autoencoders, neural data compression, multimodality learning
-- **Efficient LLMs**: quantization techniques for LLM speed up inference
+- **Efficient LLMs**: quantization techniques for LLM inference speed up
 - **Trustworthy LLMs**: bias, fairness, robustness
 
 My overall objective is to develop intelligent systems that are both efficient and reliable.
@@ -46,7 +46,7 @@ My overall objective is to develop intelligent systems that are both efficient a
 </table>
 <br><br><br>
 
-## Selected Publications 
+## Publications 
 
 <table>
   <tr>
@@ -56,8 +56,8 @@ My overall objective is to develop intelligent systems that are both efficient a
     <td style="font-size: 15px;">
       <strong>ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
       <strong>Yuzhe Gu</strong>, Enmao Diao<br>
-      <em>arXiv, 2024</em><br>
-      <a href="https://arxiv.org/abs/2404.19441">paper</a> / <a href="https://github.com/yzGuu830/efficient-speech-codec">code</a> 
+      <em>Under Review</em><br>
+      <a href="https://drive.google.com/file/d/1gwqwu74wKOtVWslXBZkfO8Ve26OhMepZ/view?usp=sharing">paper</a> / <a href="https://github.com/yzGuu830/efficient-speech-codec">code</a> 
       <br>
       <div style="font-size: 13px;">
       We propose Efficient Speech Codec (ESC), a lightweight parameter-efficient codec laid on cross-scale residual vector quantization and transformers. Our model leverages mirrored hierarchical window-attention transformer blocks and performs step-wise decoding from coarse-to-fine feature representations. 
