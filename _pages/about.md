@@ -57,10 +57,10 @@ My overall objective is to develop intelligent systems that are both efficient a
       <strong>ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
       <strong>Yuzhe Gu</strong>, Enmao Diao<br>
       <em>Under Review</em><br>
-      <a href="https://drive.google.com/file/d/1gwqwu74wKOtVWslXBZkfO8Ve26OhMepZ/view?usp=sharing">paper</a> / <a href="https://github.com/yzGuu830/efficient-speech-codec">code</a> 
+      <a href="https://arxiv.org/abs/2404.19441">paper</a> / <a href="https://github.com/yzGuu830/efficient-speech-codec">code</a> 
       <br>
       <div style="font-size: 13px;">
-      We propose Efficient Speech Codec (ESC), a lightweight parameter-efficient codec laid on cross-scale residual vector quantization and transformers. Our model leverages mirrored hierarchical window-attention transformer blocks and performs step-wise decoding from coarse-to-fine feature representations. 
+      We propose Efficient Speech Codec (ESC), a lightweight, parameter-efficient speech codec based on a cross-scale residual vector quantization scheme and transformers. Our model employs mirrored hierarchical window transformer blocks and performs step-wise decoding from coarse-to-fine feature representations. ESC can achieve high-fidelity speech reconstruction with significantly lower complexity than state-of-the-art convolutional codecs.
       </div>
     </td>
   </tr>
