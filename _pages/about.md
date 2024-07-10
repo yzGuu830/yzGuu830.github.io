@@ -21,12 +21,12 @@ I am a first year master student in [Department of Electrical and Systems Engine
 
 <!-- My research interest primarily revolves around enhancing **efficiency** and promoting **trustworthiness** in existing generative models. I am also interested in exploring the theory and application of learning quantized representations. My long-term objective is to develop intelligent systems that are both effective and reliable.  -->
 
-My current research interest covers a wide range of topics related to deep generative models: 
-- **Quantized Representation Learning**: quantized variational autoencoders, neural data compression, multimodality learning
-- **Efficient LLMs**: quantization techniques for LLM inference speed up
-- **Trustworthy LLMs**: bias, fairness, robustness
+My research interest covers a wide range of topics related to representation learning and generative models: 
+- **Discrete Representation Learning**: vector quantization networks for generative modeling, data compression, and multi-modality learning
+- **Efficient LLMs**: leveraging quantization techniques for efficient LLM inference/finetuning
+- **Trustworthy LLMs**: re-examination of bias, fairness and robustness in LLMs
 
-My overall objective is to develop intelligent systems that are both efficient and reliable.
+<!-- My overall objective is to develop intelligent systems that are both efficient and reliable. -->
 
 <span style="color: blue;">I am currently seeking for a CS/ECE Ph.D. position related to Machine Learning and Natural Language Processing starting 2025 Fall. </span>
 
