@@ -18,6 +18,7 @@ social: false # includes social icons at the bottom of the page
 <div style="font-family: 'Georgia', sans-serif;">
 
   I am a second-year master student in <a href="https://www.ese.upenn.edu">Department of Electrical and Systems Engineering</a> at the <a href="https://www.upenn.edu">University of Pennsylvania</a> with a concentration on Machine Learning and Data Science. I received my dual B.Sc. in Data Science from <a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a> and <a href="https://www.duke.edu">Duke University</a>, where I worked closely with <a href="https://diaoenmao.com/">Enmao Diao</a> and <a href="https://scholars.duke.edu/person/Peng.Sun1">Peng Sun</a>.
+  <br>
 
   <p>My research interest covers a wide range of topics related to learning representations and modern deep generative models:</p>
   <ul>
@@ -44,12 +45,12 @@ social: false # includes social icons at the bottom of the page
 
   <br><br><br>
 
-  ## News
+  <h2>News</h2>
 
   <style>
     /* Limit the horizontal length of the content cell */
     .content-cell {
-      max-width: 800px;  /* Adjust this value to control the wrapping */
+      max-width: 600px;  /* Adjust this value to control the wrapping */
       word-wrap: break-word;  /* Ensures the text wraps within the max-width */
       display: inline-block;
       color: darkblue;
@@ -58,26 +59,26 @@ social: false # includes social icons at the bottom of the page
 
   <table>
     <tr>
-      <td style="white-space: nowrap; vertical-align: top;"><strong>Sep 20, 2024</strong></td>
+      <td style="white-space: nowrap; vertical-align: top;"><strong>Sep 20, 2024  </strong></td>
       <td class="content-cell" id="content1">
         Our work "ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers" is accepted to EMNLP 2024 main conference!
       </td>
     </tr>
     <tr>
-      <td style="white-space: nowrap; vertical-align: top;"><strong>Mar 13, 2024</strong></td>
+      <td style="white-space: nowrap; vertical-align: top;"><strong>Mar 13, 2024  </strong></td>
       <td class="content-cell" id="content2">
         My co-authored paper "How Did We Get Here? Summarizing Conversation Dynamics" is accepted to NAACL 2024 main conference!
       </td>
     </tr>
     <tbody id="moreContent" style="display:none;">
       <tr>
-        <td style="white-space: nowrap; vertical-align: top;"><strong>Jan 16, 2024</strong></td>
+        <td style="white-space: nowrap; vertical-align: top;"><strong>Jan 16, 2024  </strong></td>
         <td class="content-cell" id="content3">
           My independent study @DKU "Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches" got accepted to IEEE-ICC 2024!
         </td>
       </tr>
       <tr>
-        <td style="white-space: nowrap; vertical-align: top;"><strong>May 26, 2023</strong></td>
+        <td style="white-space: nowrap; vertical-align: top;"><strong>May 26, 2023  </strong></td>
         <td class="content-cell" id="content4">
           🎉 Officially graduated from Duke Kunshan / Duke University!
         </td>
@@ -96,6 +97,8 @@ social: false # includes social icons at the bottom of the page
 
   <script>
     function toggleContent() {
+      event.preventDefault();
+
       const moreContent = document.getElementById('moreContent');
       const toggleLink = document.getElementById('toggleLink');
       
@@ -112,7 +115,7 @@ social: false # includes social icons at the bottom of the page
   <br><br><br>
 
 
-## Publications 
+<h2>Publications</h2>
 
   <table>
     <tr>
