@@ -6,8 +6,8 @@ subtitle: A Graduate Student interested in Machine Learning and Artificial Intel
 
 profile:
   align: right
-  image: yuzhegu_headshot.jpg
-  image_circular: true # crops the image to make it circular
+  image: yuzhegu_headshot_new.jpg
+  image_circular: false # crops the image to make it circular
   more_info:
 
 news: false # includes a list of news items
@@ -17,21 +17,18 @@ social: false # includes social icons at the bottom of the page
 
 <div style="font-family: 'Georgia', sans-serif;">
 
-  I am a second-year master student in <a href="https://www.ese.upenn.edu">Department of Electrical and Systems Engineering</a> at the <a href="https://www.upenn.edu">University of Pennsylvania</a> with a concentration on Machine Learning and Data Science. I received my dual B.Sc. in Data Science from <a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a> and <a href="https://www.duke.edu">Duke University</a>, where I worked closely with <a href="https://diaoenmao.com/">Enmao Diao</a> and <a href="https://scholars.duke.edu/person/Peng.Sun1">Peng Sun</a>.
+  <p>I am a second-year master student in <a href="https://www.ese.upenn.edu">Department of Electrical and Systems Engineering</a> at the <a href="https://www.upenn.edu">University of Pennsylvania</a> with a concentration on Machine Learning and Data Science. I received my dual B.Sc. in Data Science from <a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a> and <a href="https://www.duke.edu">Duke University</a>, where I worked closely with <a href="https://diaoenmao.com/">Enmao Diao</a> and <a href="https://scholars.duke.edu/person/Peng.Sun1">Peng Sun</a>.</p>
   
-  <br>
-
   <p>My research interest covers a wide range of topics related to learning representations and modern deep generative models:</p>
   <ul>
     <li><strong>Discrete Representation Learning</strong>: advancing discrete latent variable models for generative models, efficient data compression, and multimodal application</li>
     <li><strong>Efficient LLMs</strong>: optimizing LLM decoding performance through improved KV cache mechanism and better long-context understanding ability</li>
   </ul>
 
-  <span style="color: darkblue;">I am actively seeking a CS / ECE Ph.D. position related to Machine Learning and Natural Language Processing starting 2025 Fall.</span>
+  <p><span style="color: darkblue;">I am actively seeking a CS / ECE Ph.D. position related to Machine Learning and Natural Language Processing starting 2025 Fall.</span></p>
   
-  <br>
-
-  <table>
+  <!-- Spacing achieved through CSS margin for the table -->
+  <table style="margin-top: 20px;">
     <tr>
       <td>
         <strong>Email</strong>: tracygu [at] seas [dot] upenn [dot] edu<br>
@@ -51,66 +48,54 @@ social: false # includes social icons at the bottom of the page
   <h2>News</h2>
 
   <style>
-    /* Limit the horizontal length of the content cell */
+    /* Limit the horizontal length of the content text */
     .content-cell {
       max-width: 700px;  /* Adjust this value to control the wrapping */
-      word-wrap: break-word;  /* Ensures the text wraps within the max-width */
-      /* display: inline-block; */
-    }
-    /* Add more padding to the date cell */
-    .date-cell {
-      padding-right: 50px;  /* Adjust this value to control spacing */
+      word-wrap: break-word;
     }
   </style>
 
-  <table>
-    <tr>
-      <td style="white-space: nowrap; vertical-align: top;"><strong>Sep 20, 2024  </strong></td>
-      <td class="content-cell" id="content1">
-        Our work <a href="https://arxiv.org/abs/2404.19441"">"ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers"</a> is accepted to EMNLP 2024 main conference!
-      </td>
-    </tr>
-    <tr>
-      <td style="white-space: nowrap; vertical-align: top;"><strong>Mar 13, 2024  </strong></td>
-      <td class="content-cell" id="content2">
-        My co-authored paper <a href="https://arxiv.org/abs/2404.19007"">"How Did We Get Here? Summarizing Conversation Dynamics"</a> is accepted to NAACL 2024 main conference!
-      </td>
-    </tr>
-    <tbody id="moreContent" style="display:none;">
-      <tr>
-        <td style="white-space: nowrap; vertical-align: top;"><strong>Jan 16, 2024  </strong></td>
-        <td class="content-cell" id="content3">
-          My independent study @DKU <a href="https://ieeexplore.ieee.org/document/10622693"">"Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches"</a> got accepted to IEEE-ICC 2024!
-        </td>
-      </tr>
-      <tr>
-        <td style="white-space: nowrap; vertical-align: top;"><strong>May 26, 2023  </strong></td>
-        <td class="content-cell" id="content4">
-          🎉 Officially graduated from Duke Kunshan / Duke University!
-        </td>
-      </tr>
-    </tbody>
-    <!-- Show More/Show Less Link Inside the Table -->
-    <tr>
-      <td>
-        <a href="#" id="toggleLink" onclick="toggleContent();" style="text-decoration: underline; cursor: pointer;">
-          show more
-        </a>
-      </td>
-      <td></td>
-    </tr>
-  </table>
+  <ul>
+    <li>
+      <span class="content-cell">
+        <strong>[Sep 20, 2024]</strong> Our work <a href="https://arxiv.org/abs/2404.19441">"ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers"</a> is accepted to EMNLP 2024 main conference!
+      </span>
+    </li>
+    <li>
+      <span class="content-cell">
+        <strong>[Mar 13, 2024]</strong> My co-authored paper <a href="https://arxiv.org/abs/2404.19007">"How Did We Get Here? Summarizing Conversation Dynamics"</a> is accepted to NAACL 2024 main conference!
+      </span>
+    </li>
+    <div id="moreContent" style="display:none;">
+      <li>
+        <span class="content-cell">
+          <strong>[Jan 16, 2024]</strong> My independent study @DKU <a href="https://ieeexplore.ieee.org/document/10622693">"Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches"</a> got accepted to IEEE-ICC 2024!
+        </span>
+      </li>
+      <li>
+        <span class="content-cell">
+          <strong>[May 26, 2023]</strong> 🎉 Officially graduated from Duke Kunshan / Duke University!
+        </span>
+      </li>
+    </div>
+    <!-- Show More/Show Less Link as a Bullet Point -->
+    <li>
+      <a href="#" id="toggleLink" onclick="toggleContent();" style="text-decoration: underline; cursor: pointer;">
+        show more
+      </a>
+    </li>
+  </ul>
 
   <script>
-    function toggleContent() {
+    function toggleContent(event) {
       event.preventDefault();
 
       const moreContent = document.getElementById('moreContent');
       const toggleLink = document.getElementById('toggleLink');
       
-      // Toggle visibility of additional rows
+      // Toggle visibility of additional content
       if (moreContent.style.display === 'none') {
-        moreContent.style.display = 'table-row-group';
+        moreContent.style.display = 'block';
         toggleLink.innerText = 'show less';
       } else {
         moreContent.style.display = 'none';
@@ -118,7 +103,7 @@ social: false # includes social icons at the bottom of the page
       }
     }
   </script>
-  <br><br><br>
+
 
 
 <h2>Publications</h2>
@@ -126,7 +111,7 @@ social: false # includes social icons at the bottom of the page
   <table>
     <tr>
       <td>
-        <img src="../assets/img/publication_preview/esc.png" alt="Image description" width="200" style="margin-right: 80px;">
+        <img src="../assets/img/publication_preview/esc.png" alt="Image description" width="150" style="margin-right: 50px;">
       </td>
       <td style="font-size: 16px; font-family: Georgia, sans-serif;">
         <strong style="font-family: Georgia, sans-serif; font-style:italic; font-weight: bold;">ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
@@ -146,7 +131,7 @@ social: false # includes social icons at the bottom of the page
   <table>
     <tr>
       <td>
-        <img src="../assets/img/publication_preview/scd.png" alt="Image description" width="200" style="margin-right: 80px;">
+        <img src="../assets/img/publication_preview/scd.png" alt="Image description" width="150" style="margin-right: 50px;">
       </td>
       <td style="font-size: 16px; font-family: Georgia, sans-serif;">
         <strong style="font-family: Georgia, sans-serif; font-style:italic; font-weight: bold;">How Did We Get Here? Summarizing Conversation Dynamics</strong><br>
@@ -166,7 +151,7 @@ social: false # includes social icons at the bottom of the page
   <table>
     <tr>
       <td>
-        <img src="../assets/img/publication_preview/policy.png" alt="Image description" width="200" style="margin-right: 80px;">
+        <img src="../assets/img/publication_preview/policy.png" alt="Image description" width="150" style="margin-right: 50px;">
       </td>
       <td style="font-size: 16px; font-family: Georgia, sans-serif;">
         <strong style="font-family: Georgia, sans-serif; font-style:italic; font-weight: bold;">Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches</strong><br>
