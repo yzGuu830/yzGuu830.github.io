@@ -138,27 +138,27 @@ social: false # includes social icons at the bottom of the page
 <h2>Publications</h2>
 
 <!-- Year on the left, publications on the right, with consistent width -->
-<div style="display: flex; flex-direction: row; max-width: 700;">
+<div style="display: flex; flex-direction: row; max-width: 600;">
   <!-- Year on the left -->
-  <div style="font-weight: bold; font-size: 18px; margin-right: 20px;">
+  <div style="font-weight: bold; font-size: 20; margin-left: 30px; margin-right: 20px; text-align: center;">
     2024
   </div>
   <!-- Publications on the right -->
-  <div style="font-size: 16px; font-family: Georgia, sans-serif; word-wrap: break-word;">
+  <div style="font-size: 15px; font-family: Georgia, sans-serif; word-wrap: break-word;">
     <!-- First publication -->
-    <strong style="font-family: Georgia, sans-serif; font-style: italic; font-weight: bold;">ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
+    <strong style="font-size: 16px; font-family: Georgia, sans-serif; font-style: italic; font-weight: bold;">ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
     <strong style="font-weight: bold;">Yuzhe Gu</strong>, Enmao Diao<br>
     <em>Proceedings of EMNLP, 2024</em><br>
     <a href="https://arxiv.org/abs/2404.19441">paper</a> / <a href="https://github.com/yzGuu830/efficient-speech-codec">code</a>
     <br><br>
     <!-- Second publication -->
-    <strong style="font-family: Georgia, sans-serif; font-style: italic; font-weight: bold;">How Did We Get Here? Summarizing Conversation Dynamics</strong><br>
+    <strong style="font-size: 16px; font-family: Georgia, sans-serif; font-style: italic; font-weight: bold;">How Did We Get Here? Summarizing Conversation Dynamics</strong><br>
     Yilun Hua, Nicholas Chernogor, <strong style="font-weight: bold;">Yuzhe Gu</strong>, Seoyeon Julie Jeong, Miranda Luo, Cristian Danescu-Niculescu-Mizil<br>
     <em>Proceedings of NAACL, 2024</em><br>
     <a href="https://arxiv.org/abs/2404.19007">paper</a> / <a href="https://github.com/CornellNLP/scd?tab=readme-ov-file">code</a>
     <br><br>
     <!-- Third publication -->
-    <strong style="font-family: Georgia, sans-serif; font-style: italic; font-weight: bold;">Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches</strong><br>
+    <strong style="font-size: 16px; font-family: Georgia, sans-serif; font-style: italic; font-weight: bold;">Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches</strong><br>
     <strong style="font-weight: bold;">Yuzhe Gu</strong>, Peng Sun, Azzedine Boukerche<br>
     <em>Proceedings of IEEE International Conference on Communications (ICC), 2024</em><br>
     <a href="https://ieeexplore.ieee.org/document/10622693">paper</a> / <a href="https://github.com/yzGuu830/epic-quant">code</a>
