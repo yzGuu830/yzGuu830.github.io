@@ -50,37 +50,38 @@ social: false # includes social icons at the bottom of the page
   <style>
     /* Limit the horizontal length of the content text */
     .content-cell {
-      max-width: 700px;  /* Adjust this value to control the wrapping */
+      max-width: 650px;  /* Adjust this value to control the wrapping */
       word-wrap: break-word;
+      display: inline-block;
     }
   </style>
 
   <ul>
     <li>
       <span class="content-cell">
-        <strong>[Sep 20, 2024]</strong> Our work <a href="https://arxiv.org/abs/2404.19441">"ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers"</a> is accepted to EMNLP 2024 main conference!
+        <strong style="font-weight: bold;">[Sep 20, 2024]</strong> Our work <a href="https://arxiv.org/abs/2404.19441">"ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers"</a> is accepted to EMNLP 2024 main conference!
       </span>
     </li>
     <li>
       <span class="content-cell">
-        <strong>[Mar 13, 2024]</strong> My co-authored paper <a href="https://arxiv.org/abs/2404.19007">"How Did We Get Here? Summarizing Conversation Dynamics"</a> is accepted to NAACL 2024 main conference!
+        <strong style="font-weight: bold;">[Mar 13, 2024]</strong> My co-authored paper <a href="https://arxiv.org/abs/2404.19007">"How Did We Get Here? Summarizing Conversation Dynamics"</a> is accepted to NAACL 2024 main conference!
       </span>
     </li>
     <div id="moreContent" style="display:none;">
       <li>
         <span class="content-cell">
-          <strong>[Jan 16, 2024]</strong> My independent study @DKU <a href="https://ieeexplore.ieee.org/document/10622693">"Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches"</a> got accepted to IEEE-ICC 2024!
+          <strong style="font-weight: bold;">[Jan 16, 2024]</strong> My independent study @DKU <a href="https://ieeexplore.ieee.org/document/10622693">"Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches"</a> got accepted to IEEE-ICC 2024!
         </span>
       </li>
       <li>
         <span class="content-cell">
-          <strong>[May 26, 2023]</strong> 🎉 Officially graduated from Duke Kunshan / Duke University!
+          <strong style="font-weight: bold;">[May 26, 2023]</strong> 🎉 Officially graduated from Duke Kunshan / Duke University!
         </span>
       </li>
     </div>
     <!-- Show More/Show Less Link as a Bullet Point -->
     <li>
-      <a href="#" id="toggleLink" onclick="toggleContent();" style="text-decoration: underline; cursor: pointer;">
+      <a href="#" id="toggleLink" onclick="toggleContent(event);" style="text-decoration: underline; cursor: pointer;">
         show more
       </a>
     </li>
@@ -88,7 +89,7 @@ social: false # includes social icons at the bottom of the page
 
   <script>
     function toggleContent(event) {
-      event.preventDefault();
+      event.preventDefault();  // Prevent the default behavior of the link
 
       const moreContent = document.getElementById('moreContent');
       const toggleLink = document.getElementById('toggleLink');
@@ -103,6 +104,7 @@ social: false # includes social icons at the bottom of the page
       }
     }
   </script>
+
 
 
 
