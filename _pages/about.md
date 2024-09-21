@@ -27,6 +27,7 @@ social: false # includes social icons at the bottom of the page
   </ul>
 
   <span style="color: darkblue;">I am actively seeking a CS / ECE Ph.D. position related to Machine Learning and Natural Language Processing starting 2025 Fall.</span>
+  <br>
 
   <table>
     <tr>
@@ -50,10 +51,13 @@ social: false # includes social icons at the bottom of the page
   <style>
     /* Limit the horizontal length of the content cell */
     .content-cell {
-      max-width: 600px;  /* Adjust this value to control the wrapping */
+      max-width: 700px;  /* Adjust this value to control the wrapping */
       word-wrap: break-word;  /* Ensures the text wraps within the max-width */
       display: inline-block;
-      color: darkblue;
+    }
+    /* Add more padding to the date cell */
+    .date-cell {
+      padding-right: 30px;  /* Adjust this value to control spacing */
     }
   </style>
 
@@ -61,20 +65,20 @@ social: false # includes social icons at the bottom of the page
     <tr>
       <td style="white-space: nowrap; vertical-align: top;"><strong>Sep 20, 2024  </strong></td>
       <td class="content-cell" id="content1">
-        Our work "ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers" is accepted to EMNLP 2024 main conference!
+        Our work <a href="https://arxiv.org/abs/2404.19441"">"ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers"</a> is accepted to EMNLP 2024 main conference!
       </td>
     </tr>
     <tr>
       <td style="white-space: nowrap; vertical-align: top;"><strong>Mar 13, 2024  </strong></td>
       <td class="content-cell" id="content2">
-        My co-authored paper "How Did We Get Here? Summarizing Conversation Dynamics" is accepted to NAACL 2024 main conference!
+        My co-authored paper <a href="https://arxiv.org/abs/2404.19007"">"How Did We Get Here? Summarizing Conversation Dynamics"</a> is accepted to NAACL 2024 main conference!
       </td>
     </tr>
     <tbody id="moreContent" style="display:none;">
       <tr>
         <td style="white-space: nowrap; vertical-align: top;"><strong>Jan 16, 2024  </strong></td>
         <td class="content-cell" id="content3">
-          My independent study @DKU "Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches" got accepted to IEEE-ICC 2024!
+          My independent study @DKU <a href="https://ieeexplore.ieee.org/document/10622693"">"Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches"</a> got accepted to IEEE-ICC 2024!
         </td>
       </tr>
       <tr>
@@ -123,8 +127,8 @@ social: false # includes social icons at the bottom of the page
         <img src="../assets/img/publication_preview/esc.png" alt="Image description" width="200" style="margin-right: 80px;">
       </td>
       <td style="font-size: 16px; font-family: Georgia, sans-serif;">
-        <strong>ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
-        <strong>Yuzhe Gu</strong>, Enmao Diao<br>
+        <strong style="font-family: Georgia, sans-serif; font-style:italic">ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers</strong><br>
+        <strong style="font-weight: bold;">Yuzhe Gu</strong>, Enmao Diao<br>
         <em>Proceedings of EMNLP, 2024</em><br>
         <a href="https://arxiv.org/abs/2404.19441">paper</a> / <a href="https://github.com/yzGuu830/efficient-speech-codec">code</a> 
         <br>
@@ -143,8 +147,8 @@ social: false # includes social icons at the bottom of the page
         <img src="../assets/img/publication_preview/scd.png" alt="Image description" width="200" style="margin-right: 80px;">
       </td>
       <td style="font-size: 16px; font-family: Georgia, sans-serif;">
-        <strong style="font-family: Georgia, sans-serif">How Did We Get Here? Summarizing Conversation Dynamics</strong><br>
-        Yilun Hua, Nicholas Chernogor, <strong>Yuzhe Gu</strong>, Seoyeon Julie Jeong, Miranda Luo, Cristian Danescu-Niculescu-Mizil<br>
+        <strong style="font-family: Georgia, sans-serif; font-style:italic">How Did We Get Here? Summarizing Conversation Dynamics</strong><br>
+        Yilun Hua, Nicholas Chernogor, <strong style="font-weight: bold;">Yuzhe Gu</strong>, Seoyeon Julie Jeong, Miranda Luo, Cristian Danescu-Niculescu-Mizil<br>
         <em>Proceedings of NAACL, 2024</em><br>
         <a href="https://arxiv.org/abs/2404.19007">paper</a> / <a href="https://github.com/CornellNLP/scd?tab=readme-ov-file">code</a> 
         <br>
@@ -163,8 +167,8 @@ social: false # includes social icons at the bottom of the page
         <img src="../assets/img/publication_preview/policy.png" alt="Image description" width="200" style="margin-right: 80px;">
       </td>
       <td style="font-size: 16px; font-family: Georgia, sans-serif;">
-        <strong style="font-family: Georgia, sans-serif">Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches</strong><br>
-        <strong>Yuzhe Gu</strong>, Peng Sun, Azzedine Boukerche<br>
+        <strong style="font-family: Georgia, sans-serif; font-style:italic">Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches</strong><br>
+        <strong style="font-weight: bold;">Yuzhe Gu</strong>, Peng Sun, Azzedine Boukerche<br>
         <em>Proceedings of IEEE International Conference on Communications (ICC), 2024</em><br>
         <a href="https://ieeexplore.ieee.org/document/10622693">paper</a> / <a href="https://github.com/yzGuu830/epic-quant">code</a> 
         <br>
