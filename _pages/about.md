@@ -71,7 +71,7 @@ social: false # includes social icons at the bottom of the page
 
   /* Limit the horizontal length of the content text in the News section */
   .news-section .content-cell {
-    max-width: 650px;  /* Control the wrapping */
+    max-width: 700px;  /* Control the wrapping */
     word-wrap: break-word;
   }
 
@@ -138,7 +138,7 @@ social: false # includes social icons at the bottom of the page
 <h2>Publications</h2>
 
 <!-- Year on the left, publications on the right, with consistent width -->
-<div style="display: flex; flex-direction: row; max-width: 600;">
+<div style="display: flex; flex-direction: row; max-width: 570;">
   <!-- Year on the left -->
   <div style="font-weight: bold; font-size: 20; margin-left: 30px; margin-right: 20px; text-align: center;">
     2024
