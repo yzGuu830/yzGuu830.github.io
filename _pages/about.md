@@ -19,13 +19,11 @@ social: false # includes social icons at the bottom of the page
 
 <p>I am a second-year master student in <a href="https://www.ese.upenn.edu">Department of Electrical and Systems Engineering</a> at the <a href="https://www.upenn.edu">University of Pennsylvania</a> with a concentration on Machine Learning and Data Science. I received my dual B.Sc. in Data Science from <a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a> and <a href="https://www.duke.edu">Duke University</a>, where I worked closely with <a href="https://diaoenmao.com/">Enmao Diao</a> and <a href="https://scholars.duke.edu/person/Peng.Sun1">Peng Sun</a>.</p>
 
-<p>My research interest covers a wide range of topics related to learning representations and modern deep generative models:</p>
+<p>My research interest primarily focuses on efficiency in machine learning, covering a wide range of topics related to representation learning and modern deep generative models:</p>
 <ul>
-  <li><strong style="font-weight: bold;">Discrete Representation Learning</strong>: advancing discrete latent variable models for generative models, efficient data compression, and multimodal application</li>
-  <li><strong style="font-weight: bold;">Efficient LLMs</strong>: optimizing LLM decoding performance through improved KV cache mechanism and better long-context understanding ability</li>
+  <li><strong style="font-weight: bold;">Representation Learning</strong>: advancing discrete latent models for efficient data compression, generative tasks, and applications across different modalities.</li>
+  <li><strong style="font-weight: bold;">Efficient LLMs</strong>: optimizing large language models through the lens of memory-efficient inference and improved long-context performance.</li>
 </ul>
-
-<p><span style="color: darkblue;">I am actively seeking a CS / ECE Ph.D. position related to Machine Learning and Natural Language Processing starting 2025 Fall.</span></p>
 
 <!-- Spacing achieved through CSS margin for the table -->
 <table style="margin-top: 20px;">
